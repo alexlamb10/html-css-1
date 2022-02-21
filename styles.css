@@ -1,0 +1,49 @@
+* {
+    background-color: rgb(250, 250, 233);
+    margin: 0%;
+}
+.single-pic, h4 {
+    background-color: white;
+}
+.header, .footer, h1 {
+    background-color: #6A7D8E;
+}
+.header, .footer {
+    padding: 2%;
+}
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pics {
+    padding: 7%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.single-pic {
+    margin: 0 3%;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    box-shadow: 10px 5px 5px #6A7D8E;
+    border-radius: 15px;
+}
+
+.hobby {
+    flex-direction: column;
+    margin: 2%;
+}
+
+li {
+    padding: 1%;
+}
+
+.the-pic:hover {
+    transform: scale(.8);
+}
